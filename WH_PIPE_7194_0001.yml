@@ -1,0 +1,9 @@
+
+pipelines:
+  - name: WH_PIPE_7194_0001
+    steps:
+      - name: WH_PIPE_7194_0001
+        type: Bash
+        execution:
+          onExecute:
+            - echo "Hello World"
